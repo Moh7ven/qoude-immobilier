@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hi-Tech Multi-purpose Free Bootstrap Responsive Template</title>
+    <title>Qoude immobilier</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <!-- css -->
@@ -38,7 +38,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" /></a>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="177" height=52" /></a>
                     </div>
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
