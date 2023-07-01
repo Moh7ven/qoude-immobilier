@@ -3,7 +3,6 @@
 @section('content')
 
 
-
 <section id="inner-headline">
     <div class="container">
         <div class="row">
@@ -26,110 +25,179 @@
                 </ul>
                 <div class="clearfix">
                 </div>
-                <div class="row ">
-                    <section id="projects" ">
-					<ul id=" thumbs" class="portfolio">
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 design " data-id="id-0" data-type="web">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Appartement, 3 pièces / Prix: 250.000 fcfa" href="img/works/1.jpg">
-                                <span class="overlay-img">
-                                    <div class="container">
-                                        <h4 style="color:white;">Appartement à louer
-                                            <br>Abidjan, Côte d'ivoire
-                                        </h4>
+                <div class="row">
+                    <section id="projects">
+                        <ul id=" thumbs" class="portfolio">
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs design col-lg-4 col-md-6 col-sm-12" data-id="id-1" data-type="icon">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="project custom-card">
+                                        <div id="main-slider" class="flexslider">
+
+                                            <div class="flex-caption">
+
+                                            </div>
+                                            <ul class="slides">
+
+                                                <li>
+                                                    <img src="img/pimg1.jpg" alt="" />
+
+                                                </li>
+                                                <li>
+                                                    <img src="img/pimg2.jpg" alt="" />
+
+                                                </li>
+                                                <li>
+                                                    <img src="img/pimg3.jpg" alt="" />
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="project-details card-bottom">
+                                            <ul>
+                                                <li>
+                                                    <h3 style="color:white">
+                                                        <strong>
+                                                            <div style="contain: content;">Terrain en vente</div>
+                                                        </strong>
+                                                    </h3>
+                                                </li>
+                                                <li><strong style="font-size: 15px;">Superficie: 500m²</strong></li>
+                                                <li class="style-prix custom-card"><strong>Prix: 30.000.000 fcfa</strong></li>
+                                                <li>
+                                                    <strong>
+                                                        <a style="color:#E21818" href="https://www.google.com/maps/place/Abidjan/@5.3484281,-4.1444809,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ?entry=ttu" target="_blank">
+                                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp; &nbsp;Abidjan, Côte d'Ivoire
+                                                        </a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-home"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/1.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
+                                </div>
+                            </li>
 
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/2.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/2.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
+                            <!-- End Item Project -->
 
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="graphic">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/3.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/3.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs  design col-lg-4 col-md-6 col-sm-12" data-id="id-1" data-type="icon">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="project custom-card">
+                                        <img src="img/pimg2.jpg" class="img-responsive card-top" alt="">
+                                        <div class="project-details card-bottom">
+                                            <ul>
+                                                <li>
+                                                    <H3 style="color:white">
+                                                        <strong>
+                                                            <div style="contain: content;">Terrain en vente</div>
+                                                        </strong>
+                                                    </H3>
+                                                </li>
+                                                <li><strong style="font-size: 15px;">Superficie: 500m²</strong></li>
+                                                <li class="style-prix custom-card"><strong>Prix: 30.000.000 fcfa </strong></li>
+                                                <li>
+                                                    <strong>
+                                                        <a style="color:#E21818" href="https://www.google.com/maps/place/Abidjan/@5.3484281,-4.1444809,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ?entry=ttu" target="_blank">
+                                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp; &nbsp;Abidjan, Côte d'Ivoire
+                                                        </a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Item Project -->
 
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/4.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
-                        <div class="clearfix"></div>
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="web">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/5.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs  design col-lg-4 col-md-6 col-sm-12" data-id="id-2" data-type="graphic">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="project custom-card">
+                                        <img src="img/pimg3.jpg" class="img-responsive card-top" alt="">
+                                        <div class="project-details card-bottom">
+                                            <ul>
+                                                <li>
+                                                    <H3 style="color:white">
+                                                        <strong>
+                                                            <div style="contain: content;">Terrain en vente</div>
+                                                        </strong>
+                                                    </H3>
+                                                </li>
+                                                <li><strong style="font-size: 15px;">Superficie: 500m²</strong></li>
+                                                <li class="style-prix custom-card"><strong>Prix: 30.000.000 fcfa </strong></li>
+                                                <li>
+                                                    <strong>
+                                                        <a style="color:#E21818" href="https://www.google.com/maps/place/Abidjan/@5.3484281,-4.1444809,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ?entry=ttu" target="_blank">
+                                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp; &nbsp;Abidjan, Côte d'Ivoire
+                                                        </a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Item Project -->
 
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs  design col-lg-4 col-md-6 col-sm-12" data-id="id-3" data-type="web">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="project custom-card">
+                                        <img src="img/pimg4.jpg" class="img-responsive card-top" alt="">
+                                        <div class="project-details card-bottom">
+                                            <ul>
+                                                <li>
+                                                    <H3 style="color:white">
+                                                        <strong>
+                                                            <div style="contain: content;">Terrain en vente</div>
+                                                        </strong>
+                                                    </H3>
+                                                </li>
+                                                <li><strong style="font-size: 15px;">Superficie: 500m²</strong></li>
+                                                <li class="style-prix custom-card"><strong>Prix: 30.000.000 fcfa </strong></li>
+                                                <li>
+                                                    <strong>
+                                                        <a style="color:#E21818" href="https://www.google.com/maps/place/Abidjan/@5.3484281,-4.1444809,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ?entry=ttu" target="_blank">
+                                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp; &nbsp;Abidjan, Côte d'Ivoire
+                                                        </a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Item Project -->
 
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="icon">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/6.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/6.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs design col-lg-4 col-md-6 col-sm-12" data-id="id-4" data-type="web">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="project custom-card">
+                                        <img src="img/pimg1.jpg" class="img-responsive card-top" alt="">
+                                        <div class="project-details card-bottom">
+                                            <ul>
+                                                <li>
+                                                    <H3 style="color:white">
+                                                        <strong>
+                                                            <div style="contain: content;">Terrain en vente</div>
+                                                        </strong>
+                                                    </H3>
+                                                </li>
+                                                <li><strong style="font-size: 15px;">Superficie: 500m²</strong></li>
+                                                <li class="style-prix custom-card"><strong>Prix: 30.000.000 fcfa </strong></li>
+                                                <li>
+                                                    <strong>
+                                                        <a style="color:#E21818" href="https://www.google.com/maps/place/Abidjan/@5.3484281,-4.1444809,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ?entry=ttu" target="_blank">
+                                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp; &nbsp;Abidjan, Côte d'Ivoire
+                                                        </a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- End Item Project -->
 
-                        <li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/7.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/7.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
-
-                        <!-- Item Project and Filter Name -->
-                        <li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="graphic">
-                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/8.jpg">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
-                            </a>
-                            <!-- Thumb Image and Description -->
-                            <img src="img/works/8.jpg" alt="">
-                        </li>
-                        <!-- End Item Project -->
 
                         </ul>
                     </section>
@@ -140,21 +208,8 @@
 </section>
 
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+
+<!-- <script>
     $(document).ready(function() {
         $(".fancybox").fancybox({
             afterShow: function() {

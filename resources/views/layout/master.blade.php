@@ -17,11 +17,6 @@
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -38,16 +33,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="177" height=52" /></a>
+                        <a class="navbar-brand" href="{{ url('/') }}"><img src="img/logo.png" alt="logo" width="177" height=52" /></a>
                     </div>
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
-                            <li id="accueil"><a href="{{ url('/') }}">Acceuil</a></li>
-                            <li id="apropos"><a href="{{ url('detail_biens') }}">A propos de nous</a></li>
-                            <li id="biens"><a href="{{ url('biens') }}">Nos biens</a></li>
-                            <li id="agent"><a href="portfolio.html">Agent immobilier</a></li>
-                            <li id="suggestion"><a href="pricing.html">Suggestion de biens</a></li>
-                            <li id="compte"><a href="contact.html">Avoir un compte</a></li>
+                            <li id="accueil" class="{{ request()->is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Acceuil</a></li>
+                            <li id="apropos" class="{{ request()->is('about') ? 'active' : '' }}"><a href="{{ url('about') }}">A propos de nous</a></li>
+                            <li id="biens" class="{{ request()->is('biens') ? 'active' : '' }}"><a href="{{ url('biens') }}">Nos biens</a></li>
+                            <li id="agent" class="{{ request()->is('agent_login') ? 'active' : '' }}"><a href="{{ url('agent_login') }}">Agent immobilier</a></li>
+                            <li id="suggestion" class="{{ request()->is('suggestion') ? 'active' : '' }}"><a href="{{ url('suggestion') }}">Suggestion de biens</a></li>
+                            <li id="compte" class="{{ request()->is('user_login') ? 'active' : '' }}"><a href="{{ url('user_login') }}">Avoir un compte</a></li>
                         </ul>
                     </div>
                 </div>
@@ -150,7 +145,7 @@
     <script src="js/animate.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/owl-carousel/owl.carousel-2.html"></script>
-    <script>
+    <!-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Récupérer l'URL actuelle
             var currentUrl = window.location.href;
@@ -198,10 +193,9 @@
                 }
             });
         });
-    </script>
+    </script> -->
+
 
 </body>
-
-<!-- Mirrored from webthemez.com/demo/hi-tech-real-estate-free-bootstrap-website-template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 15:26:44 GMT -->
 
 </html>

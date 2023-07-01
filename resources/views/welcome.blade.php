@@ -45,7 +45,7 @@
 
                 <div class="col-lg-12">
                     <div class="aligncenter">
-                        <h1 class="aligncenter" style="color:white;">Bienvenue sur le site de l'agence immobilere </h1>
+                        <h1 class="aligncenter" style="color:white;">Bienvenue sur le site de l'agence Qoude immobilier</h1>
                         <h3>
                             <p style="color:black; font-weight: bold;">Quel type de bien recherchez-vous ?</p>
                         </h3>
@@ -54,16 +54,6 @@
                     <div class="quick-search">
                         <form role="form">
                             <div class="col-md-3">
-                                <!-- <div class="form-group">
-                <label for="country">Country</label>
-                <select class="form-control">
-                <option>USA</option>
-                <option>England</option>
-                <option>India</option>
-                <option>South Africa</option>
-                <option>Australia</option>
-                </select>
-                </div> -->
                                 <div class="form-group">
                                     <label for="location">Ville</label>
                                     <select class="form-control">
@@ -187,7 +177,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="project custom-card">
-                    <a href="detail_bien.html">
+                    <a href=" {{ url('detail_biens') }}">
                         <img src="img/pimg1.jpg" class="img-responsive card-top" alt="">
                     </a>
 

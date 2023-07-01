@@ -16,9 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/about', function () {
+    return view('about');
+});
 
 Route::get('/biens', function () {
     return view('biens');
+});
+
+Route::get('/suggestion', function () {
+    return view('suggestion');
+});
+
+Route::get('/agent_login', function () {
+    return view('agent_login');
+});
+
+Route::get('/user_login', function () {
+    return view('user_login');
 });
 
 Route::get('/detail_biens', function () {
