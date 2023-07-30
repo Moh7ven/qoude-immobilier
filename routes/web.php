@@ -32,8 +32,8 @@ Route::get('/agent_login', function () {
     return view('agent_login');
 });
 
-Route::get('/user_login', function () {
-    return view('user_login');
+Route::get('/login', function () {
+    return view('login');
 });
 
 Route::get('/detail_biens', function () {
@@ -42,4 +42,16 @@ Route::get('/detail_biens', function () {
 
 Route::get('/groupe_bien', function () {
     return view('groupe_bien');
+});
+
+Route::get('/recupmdp', function () {
+    return view('recupmdp');
+});
+
+Route::get('/inscription_agent', function () {
+    return view('agent.inscription_agent');
+});
+
+Route::get('/inscription_user', function () {
+    return view('user.inscription_user');
 });

@@ -151,7 +151,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="aligncenter">
-                    </p>
+
                 </div>
             </div>
         </div>
@@ -314,9 +314,15 @@
             <div class="col-md-12">
                 <div class="about-logo">
                     <h1>A propos de nous</h1>
-                    <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                    <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                    <a href="#" class="btnlink">lire plus...</a>
+                    <p>
+                        une agence immobilière virtuelle spécialisée dans La vente et la location des biens immobiliers.Nous sommes dotés d’une connaissance parfaite et d’une maitrise du système
+                        De gestion des patrimoines immobiliers depuis plus de 10 ans.
+                    </p>
+                    <p>
+                        Aussi, dans notre intention manifeste de nous lancer dans l’entreprenariat privé, nous avons retenu cette activité dont le Eu égard aux différentes formes d’arnaques ou
+                        d’escroqueries auxquelles nous sommes confrontés pour avoir une maison ou un terrain, il est important
+                    </p>
+                    <a href=" {{ url('about') }}" class="btnlink">lire plus...</a>
                 </div>
             </div>
         </div>

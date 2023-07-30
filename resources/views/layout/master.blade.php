@@ -40,9 +40,9 @@
                             <li id="accueil" class="{{ request()->is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Acceuil</a></li>
                             <li id="apropos" class="{{ request()->is('about') ? 'active' : '' }}"><a href="{{ url('about') }}">A propos de nous</a></li>
                             <li id="biens" class="{{ request()->is('biens') ? 'active' : '' }}"><a href="{{ url('biens') }}">Nos biens</a></li>
-                            <li id="agent" class="{{ request()->is('agent_login') ? 'active' : '' }}"><a href="{{ url('agent_login') }}">Agent immobilier</a></li>
+                            <li id="agent" class="{{ request()->is('agent_login') ? 'active' : '' }}"><a href="{{ url('/login') }}">Agent immobilier</a></li>
                             <li id="suggestion" class="{{ request()->is('suggestion') ? 'active' : '' }}"><a href="{{ url('suggestion') }}">Suggestion de biens</a></li>
-                            <li id="compte" class="{{ request()->is('user_login') ? 'active' : '' }}"><a href="{{ url('user_login') }}">Avoir un compte</a></li>
+                            <li id="compte" class="{{ request()->is('user_login') ? 'active' : '' }}"><a href="{{ url('/login') }}">Avoir un compte</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
                         <div class="widget">
                             <h5 class="widgetheading">Clients</h5>
                             <ul class="link-list">
-                                <li><a href="#" class="hover">Se connecter</a></li>
-                                <li><a href="#" class="hover">Créer un compte</a></li>
+                                <li><a href="{{ url('/login') }}" class="hover">Se connecter</a></li>
+                                <li><a href="{{ url('/inscription_user') }}" class="hover">Créer un compte</a></li>
                                 <li><a href="#" class="hover">Contactez-nous</a></li>
                             </ul>
                         </div>
@@ -87,8 +87,8 @@
                         <div class="widget">
                             <h5 class="widgetheading">Agent immobilier</h5>
                             <ul class="link-list">
-                                <li><a href="#">Se connecter</a></li>
-                                <li><a href="#">Créer un compte</a></li>
+                                <li><a href="{{ url('/login') }}">Se connecter</a></li>
+                                <li><a href="{{ url('/inscription_agent') }}">Créer un compte</a></li>
                             </ul>
                         </div>
                     </div>
